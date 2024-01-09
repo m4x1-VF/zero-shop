@@ -34,7 +34,7 @@ export default function CartPage() {
                 />
                 <div>
                   <p>{product.title}</p>
-                  <p>{product.price}</p>
+                  <p>${product.price}</p>
                   <div className="flex flex-col sm:flex-row sm:gap-5 items-start sm:items-end sm:justify-center mt-3 ">
                     <QuantitySelector quantity={3} />
                     <button className="underline mt-3">Remove</button>
