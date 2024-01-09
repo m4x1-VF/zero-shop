@@ -8,6 +8,7 @@ const productsCart = [
   initialData.products[0],
   initialData.products[1],
   initialData.products[2],
+  initialData.products[3],
 ];
 
 export default function CartPage() {
